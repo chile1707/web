@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tất cả sản phẩm - TECHNOVA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="index.html">TECHNOVA</a>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="login-register.html"><i class="fas fa-user"></i> Đăng nhập / Đăng ký</a></li>
+                        <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> Giỏ hàng <span class="cart-badge">0</span></a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li class="has-submenu">
+                        <a href="products.html">Danh mục sản phẩm</a>
+
+                    </li>
+                    <li><a href="deals.html">Khuyến mãi HOT</a></li>
+                    <li><a href="news.html">Tin tức & Đánh giá</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container content-page">
+            <h1>Tất cả sản phẩm</h1>
+            <div class="product-filters">
+                <select>
+                    <option>Sắp xếp theo</option>
+                    <option>Giá tăng dần</option>
+                    <option>Giá giảm dần</option>
+                    <option>Mới nhất</option>
+                    <option>Bán chạy nhất</option>
+                </select>
+                <input type="text" placeholder="Tìm kiếm trong danh mục...">
+            </div>
+            <div class="products grid-4-cols">
+                <div class="product-item">
+                    <a href="product-detail.html?id=laptop-x1">
+                        <img src="images/monitor_gaming_technova_vision.png" alt="Laptop Gaming TECHNOVA Pro X1">
+                        <h3>Laptop Gaming TECHNOVA Pro X1</h3>
+                    </a>
+                    <p class="price">25.000.000đ</p>
+                    <button class="btn-add-cart">Thêm vào giỏ</button>
+                </div>
+                <div class="product-item">
+                    <a href="product-detail.html?id=monitor-vision">
+                        <img src="images/manhinh.png" alt="Màn hình Gaming TECHNOVA Vision">
+                        <h3>Màn hình Gaming 27 inch TECHNOVA Vision</h3>
+                    </a>
+                    <p class="price">7.500.000đ</p>
+                    <button class="btn-add-cart">Thêm vào giỏ</button>
+                </div>
+                <div class="product-item">
+                    <a href="product-detail.html?id=mouse-xspeed">
+                        <img src="images/chuot.jpg" alt="Chuột Gaming TECHNOVA X-Speed">
+                        <h3>Chuột Gaming TECHNOVA X-Speed</h3>
+                    </a>
+                    <p class="price">999.000đ</p>
+                    <button class="btn-add-cart">Thêm vào giỏ</button>
+                </div>
+                <div class="product-item">
+                    <a href="product-detail.html?id=keyboard-mechpro">
+                        <img src="images/banphim.png" alt="Bàn phím cơ TECHNOVA MechPro">
+                        <h3>Bàn phím cơ TECHNOVA MechPro</h3>
+                    </a>
+                    <p class="price">2.200.000đ</p>
+                    <button class="btn-add-cart">Thêm vào giỏ</button>
+                </div>
+
+                </div>
+                </div>
+            <div class="view-all-products">
+                <div class="pagination">
+                    <a href="#">« Trước</a>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">Sau »</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-col">
+                <h3>Về TECHNOVA</h3>
+                <ul>
+                    <li><a href="about.html">Giới thiệu về chúng tôi</a></li>
+                    <li><a href="careers.html">Tuyển dụng</a></li>
+                    <li><a href="store-locations.html">Hệ thống cửa hàng</a></li>
+                    <li><a href="contact.html">Liên hệ & Hỗ trợ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Chính sách & Hỗ trợ</h3>
+                <ul>
+                    <li><a href="privacy-policy.html">Chính sách bảo mật</a></li>
+                    <li><a href="return-policy.html">Chính sách đổi trả</a></li>
+                    <li><a href="warranty-policy.html">Chính sách bảo hành</a></li>
+                    <li><a href="shipping-policy.html">Chính sách vận chuyển</a></li>
+                    <li><a href="faq.html">Câu hỏi thường gặp (FAQ)</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Kết nối với chúng tôi</h3>
+                <div class="social-links">
+                    <a href="https://facebook.com/your-technova-page" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://youtube.com/your-technova-channel" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://instagram.com/your-technova-profile" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/your-technova-profile" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p>© <script>document.write(new Date().getFullYear())</script> TECHNOVA. All rights reserved.</p>
+                <p>Hotline: 1900 6789</p>
+                <p>Email: info@technova.vn</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
