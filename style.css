@@ -306,7 +306,7 @@ ul {
     font-size: 1.4em;
     margin-bottom: 10px;
     color: #2c3e50;
-    height: 50px; /* Fixed height for consistent layout */
+    height: auto; /* Fixed height for consistent layout */
     overflow: hidden;
 }
 
@@ -349,6 +349,7 @@ ul {
 }
 
 .btn-secondary:hover {
+    color: #fff;
     background-color: #0056b3;
     transform: translateY(-2px);
 }
@@ -904,6 +905,7 @@ ul {
 }
 
 .btn-read-more:hover {
+    color: #fff;
     background-color: #0056b3;
 }
 
@@ -1236,4 +1238,27 @@ ul {
         height: 250px; /* Adjust height for mobile */
         border-radius: 8px 8px 0 0;
     }
+}
+.btn-primary {
+    display: inline-block;
+    background-color: #007bff; /* Màu xanh chủ đạo */
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Màu xanh đậm khi hover */
+    transform: translateY(-2px);
+}
+
+.btn-primary:active {
+    background-color: #004080; /* Màu khi nhấn giữ */
+    transform: scale(0.98);
 }
